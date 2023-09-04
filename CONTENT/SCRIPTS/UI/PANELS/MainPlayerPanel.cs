@@ -45,12 +45,12 @@ public class MainPlayerPanel : ClosablePanel
         {
             mainPlayerPanelList.PanelGO.SetActive(false);
             temp = mainPlayerPanelList.ButtonGO.GetComponent<RectTransform>().anchoredPosition;
-            temp.y = 310.0f;
+            temp.y = 35.0f;
             mainPlayerPanelList.ButtonGO.GetComponent<RectTransform>().anchoredPosition = temp;
         }
         panelList[startPanel].PanelGO.SetActive(true);
         temp = panelList[startPanel].ButtonGO.GetComponent<RectTransform>().anchoredPosition;
-        temp.y = 325.0f;
+        temp.y = 60.0f;
         panelList[startPanel].ButtonGO.GetComponent<RectTransform>().anchoredPosition = temp;
     }
 }
